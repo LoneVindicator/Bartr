@@ -1,0 +1,174 @@
+
+@import url(https://fonts.googleapis.com/css?family=Inter);
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+.login-photo{
+
+    width: 960px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+
+}
+
+#title{
+
+    width: 122px;
+    height: 47px;
+    left: 1380px;
+    top: 339px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+
+    padding-left: 130px;
+    
+    color: #000000;
+} 
+
+.photo-box{
+
+    float: left;
+}
+
+.login-box{
+
+    float: right;
+    padding-right: 241px;
+    padding-top: 282px;
+    
+}
+
+.login-form{
+
+    box-sizing: border-box;
+
+
+    width: 411px;
+    height: 41px;
+    left: 889px;
+    top: 266px;
+    margin-bottom: 30px;
+    padding-left: 18px;
+
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #B0AFAF;
+}
+
+.login-btn{
+
+    width: 411px;
+    height: 41px;
+    left: 889px;
+    top: 575px;
+
+    background: #2BC48A;
+    border: none;
+    border-radius: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+.dot {
+
+    box-sizing: border-box;
+    height: 41px;
+    width: 46px;
+    background-color: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+  }
+
+  .brand-icon{
+
+    width: 23px;
+    height: 20px;
+
+  }
+
+  .socialMedia-icons{
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 24px;
+    padding-bottom: 30px;
+
+    padding-left: 70px;
+    
+    
+
+  }
+
+  .registrationText{
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+
+    padding-top: 49px;
+  }
+
+  .firstText{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+
+    /* identical to box height */
+    text-align: center;
+
+color: #CFC8C8;
+  }
+
+  .secondText{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+
+    /* identical to box height */
+    text-align: center;
+
+    color: #32CCFF;
+
+    cursor: pointer;
+  }
